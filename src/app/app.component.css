@@ -1,0 +1,20 @@
+.tabs {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: wheat;
+  border-bottom: 1px solid #ddd;
+  border-radius: 7px;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.tabs a.active {
+  background-color: yellowgreen;
+  color: black;
+}
